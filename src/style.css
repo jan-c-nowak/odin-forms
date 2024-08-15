@@ -33,3 +33,10 @@ div.right-side {
     width: 60%;
     margin-left: 40%;
 }
+
+header > p {
+    font-size: 1.5rem;
+    padding: 3rem;
+    padding-bottom: 1rem;
+    width: 50ch;
+}
