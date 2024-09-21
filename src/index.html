@@ -10,20 +10,57 @@
     <div class="left-side">
         <div class="logo-container">
             <div class="logo">
-                Texaco
+                Neuyork
             </div>
         </div>
         <img class="left-side-image" src="img/documerica-hAfLzLG7CiY-unsplash.jpg" alt="a tall building with a factory far away in the distance">
     </div>
     <div class="right-side">
-        <header>
+        <header class="left-margin">
             <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet et iusto, minima culpa ipsam eveniet totam facere saepe nemo illum illo expedita rerum assumenda.</p>
             <p>You <em>know</em> you want to.</p>
         </header>
-        <div class="form">
-            <form action="post">
-            </form>
+        <div class="ribbon">
+            <div class="left-margin">
+                <h1>Let's do this!</h1>
+                <form action="post" id="registration">                    
+                    <label for="name">
+                        FIRST NAME
+                        <input type="text" name="name" id="name">
+                    </label>
+
+                    <label for="surname">
+                        LAST NAME
+                        <input type="text" name="surname" id="surname">
+                    </label>
+                
+                
+                    <label for="mail">
+                        EMAIL
+                        <input type="email" name="mail" id="mail"></label>
+                
+                
+                    <label for="phone">
+                        PHONE NUMBER
+                        <input type="tel" name="phone" id="phone"></label>
+                
+                
+                    <label for="password">
+                        PASSWORD
+                        <input type="password" name="password" id="password"></label>
+                
+                
+                    <label for="confirm_pass">
+                        CONFIRM PASSWORD
+                        <input type="password" name="confirm_pass" id="confirm_pass"></label>
+                        
+                </form>
+            </div>
         </div>
+    <button class="left-margin" type="submit" form="registration">Create Account</button>
+    <div class="left-margin">
+        Are you registered already? <a href="#">Log in</a>!
+    </div>
     </div>
 </body>
 </html>
